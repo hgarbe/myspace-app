@@ -39,7 +39,7 @@ class Home extends React.Component {
       return (
         <div>
           <br />
-          <Header as="h1">MySpace</Header>
+          <Header as="h1" textAlign="center">MySpace</Header>
           <br />
           <Card key={profile.id}>
             <Image src={profile.avatar} />
